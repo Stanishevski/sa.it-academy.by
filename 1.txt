@@ -1,0 +1,3 @@
+#!/bin/bash
+arr=$(git remote -v)
+${arr[@]:s:n}
